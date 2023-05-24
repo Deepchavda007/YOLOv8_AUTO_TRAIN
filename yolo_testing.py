@@ -19,5 +19,5 @@ if __name__== "__main__":
 
     ultralytics.checks()
     yolo_at_obj=YOLO_AUTO_TEST()
-    predict_path=yolo_at_obj.Testing("/root/yolo_auto_train/testing/football_data/test/","jay/test_yolo/111_26/weights/best.pt",device=0)
+    predict_path=yolo_at_obj.Testing("/root/yolo_auto_train/testing/football_data/test/","deep/test_yolo/111_26/weights/best.pt",device=0)
     print(predict_path)
